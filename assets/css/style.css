@@ -497,6 +497,16 @@ section {
   border: 2px solid #1f5297;
 }
 
+@media (max-width: 768px) {
+  #resume .row {
+    width: 100%;
+  }
+  #resume .Br{
+    display: none;
+  }
+}
+
+
 /*# Portfolio*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
@@ -749,8 +759,13 @@ section.Projects{
   background: black;
 
 }
-
-
+@media (max-width: 768px) {
+  #services .card-grid{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+}
 
 /*# Testimonials*/
 .testimonials .testimonials-carousel,
