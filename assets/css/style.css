@@ -269,6 +269,11 @@ h6 {
     background-attachment: fixed;
   }
 }
+@media (max-width: 768px) {
+  #hero{
+    background-image: url(../img/new3.jpg);
+  }
+}
 
 @media (max-width: 768px) {
   #hero h1 {
